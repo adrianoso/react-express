@@ -1,0 +1,14 @@
+export const SET_CURRENT_USER = 'SET_CURRENT_USER';
+export const SET_CURRENT_USER_ERROR = 'SET_CURRENT_USER_ERROR';
+export const CLEAR_SET_CURRENT_USER_ERROR = 'CLEAR_SET_CURRENT_USER_ERROR';
+export const LOG_OUT_USER = 'LOG_OUT_USER';
+export const CREATE_USER = 'CREATE_USER';
+
+export const SHOW_MODAL = 'SHOW_MODAL';
+export const HIDE_MODAL = 'HIDE_MODAL';
+
+export const FETCH_TASKS = 'FETCH_TASKS';
+export const FINISH_TASK = 'FINISH_TASK';
+export const ADD_TASK = 'ADD_TASK';
+export const REMOVE_TASK = 'REMOVE_TASK';
+export const ADD_COMMENT = 'ADD_COMMENT';

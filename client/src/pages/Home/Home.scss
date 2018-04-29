@@ -1,0 +1,21 @@
+@import "../../common/mixins";
+@import "../../common/variables";
+
+.Home {
+
+    &-Dashboard {
+        @include clearfix;
+        height: calc(100vh - 54px);
+        padding-top: 20px;
+
+        &-Left {
+            width: 30%;
+            float: left;
+        }
+
+        &-Right {
+            width: 70%;
+            float: left;
+        }
+    }
+}

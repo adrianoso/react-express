@@ -1,0 +1,18 @@
+.PublicNavigation {
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        position: relative;
+        height: 100%;
+        display: inline-block;
+        padding-left: 20px;
+        cursor: pointer;
+
+        img {
+            height: 24px;
+        }
+    }
+}

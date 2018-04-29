@@ -1,0 +1,22 @@
+.Header {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2); }
+  .Header:after {
+    content: '';
+    display: table;
+    clear: both; }
+  .Header .container {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px; }
+  .Header-Logo {
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 20%; }
+    .Header-Logo img {
+      width: 38px;
+      height: 38px; }
+  .Header-Nav {
+    float: left;
+    width: 80%;
+    text-align: right; }

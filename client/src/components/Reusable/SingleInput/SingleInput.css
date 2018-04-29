@@ -1,0 +1,26 @@
+.SingleInput {
+  position: relative; }
+  .SingleInput-Input {
+    max-width: 250px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #1CCA9D;
+    margin: 0 auto;
+    padding: 10px 30px 10px 10px;
+    color: #000;
+    background: transparent;
+    outline: none; }
+    .SingleInput-Input::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #909090; }
+    .SingleInput-Input::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #909090; }
+    .SingleInput-Input:-ms-input-placeholder {
+      /* IE 10+ */
+      color: #909090; }
+    .SingleInput-Input:-moz-placeholder {
+      /* Firefox 18- */
+      color: #909090; }
+    .SingleInput-Input:-webkit-autofill {
+      transition: background-color 5000s ease-in-out 0s; }

@@ -1,0 +1,13 @@
+.PrivateNavigation {
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .PrivateNavigation li {
+    position: relative;
+    height: 100%;
+    display: inline-block;
+    padding-left: 40px;
+    cursor: pointer; }
+    .PrivateNavigation li img {
+      height: 24px; }

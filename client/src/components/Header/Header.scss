@@ -1,0 +1,30 @@
+@import "../../common/mixins";
+
+.Header {
+    @include clearfix;
+    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+
+    .container {
+        display: flex;
+        align-items: center;
+        padding: 5px 10px;
+    }
+
+    &-Logo {
+        display: flex;
+        align-items: center;
+        float: left;
+        width: 20%;
+
+        img {
+            width: 38px;
+            height: 38px;
+        }
+    }
+
+    &-Nav {
+        float: left;
+        width: 80%;
+        text-align: right;
+    }
+}

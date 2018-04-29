@@ -1,0 +1,28 @@
+.AddComment {
+
+    &-Textarea {
+        width: 100%;
+        min-height: 80px;
+        margin: 10px 0 5px 0;
+        padding: 10px;
+        font-size: 14px;
+        box-shadow: inset 0 0 4px 2px hsla(0, 0%, 0%, 0.12);
+        background: rgba(0, 0, 0, 0);
+        border: none;
+        outline: none;
+    }
+
+    &-Buttons {
+
+        img {
+            width: 28px;
+            cursor: pointer;
+        }
+    }
+
+    &-Submit {
+        background-color: rgba(0,0,0,0);
+        border: 0;
+        outline: none;
+    }
+}

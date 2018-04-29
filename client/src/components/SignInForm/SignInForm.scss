@@ -1,0 +1,69 @@
+.SignInForm {
+    max-width: 250px;
+    margin: 0 auto;
+
+    label, input {
+        display: block;
+    }
+
+    label {
+        position: relative;
+        padding-bottom: 20px;
+
+        .icon {
+            position: absolute;
+            top: 12px;
+            right: 10px;
+            height: 16px;
+            cursor: pointer;
+        }
+    }
+
+    &-TextInput {
+        width: 100%;
+        max-width: 250px;
+        height: 40px;
+        margin: 0 auto;
+        color: #909090;
+        padding: 10px 30px 10px 10px;
+        box-shadow: inset 0 0 4px 2px hsla(0, 0%, 0%, 0.12);
+
+        background: rgba(0, 0, 0, 0);
+        border: none;
+        outline: none;
+
+        &::placeholder {
+            color: #909090;
+        }
+    }
+
+    &-Box {
+        a {
+            display: block;
+            text-decoration: none;
+            margin: 0;
+            padding-bottom: 20px;
+            font-weight: 800;
+            font-size: 15px;
+            color: #0491ff;
+        }
+    }
+
+    &-Submit {
+        width: 100%;
+        padding: 10px 30px;
+        border-radius: 5px;
+        background: #30e07f;
+        outline: none;
+        border: none;
+        font-size: 15px;
+        color: #fff;
+    }
+
+    &-Error {
+        margin: 0;
+        padding: 20px 0;
+        color: #ff3d3d;
+        font-weight: 800;
+    }
+}

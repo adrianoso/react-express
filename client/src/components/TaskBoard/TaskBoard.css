@@ -1,0 +1,27 @@
+.TaskBoard {
+  padding: 20px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px; }
+  .TaskBoard-Header {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    font-size: 18px; }
+    .TaskBoard-Header:after {
+      content: '';
+      display: table;
+      clear: both; }
+    .TaskBoard-Header-Left {
+      width: 50%;
+      float: left; }
+    .TaskBoard-Header-Right {
+      width: 50%;
+      float: left;
+      text-align: right; }
+      .TaskBoard-Header-Right span {
+        margin-left: 10px;
+        padding-bottom: 18px;
+        transition: 0.3s ease;
+        cursor: pointer; }
+      .TaskBoard-Header-Right .active {
+        border-bottom: 3px solid #30e07f; }

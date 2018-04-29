@@ -1,0 +1,13 @@
+.Home-Dashboard {
+  height: calc(100vh - 54px);
+  padding-top: 20px; }
+  .Home-Dashboard:after {
+    content: '';
+    display: table;
+    clear: both; }
+  .Home-Dashboard-Left {
+    width: 30%;
+    float: left; }
+  .Home-Dashboard-Right {
+    width: 70%;
+    float: left; }

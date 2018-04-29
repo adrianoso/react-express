@@ -1,0 +1,64 @@
+.Backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 50px 20px;
+  transition: 0.3s ease; }
+
+.Modal {
+  position: relative;
+  top: 10%;
+  width: 330px;
+  align-items: center;
+  max-width: 500px;
+  min-height: 150px;
+  margin: 0 auto;
+  background: #fff;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2); }
+  .Modal-Header {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center; }
+    .Modal-Header-Text {
+      margin-top: 22px; }
+    .Modal-Header-Close {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      cursor: pointer; }
+      .Modal-Header-Close img {
+        width: 20px; }
+  .Modal-Content {
+    width: 100%;
+    padding: 5px;
+    padding-bottom: 22px; }
+
+@keyframes modalFade {
+  from {
+    transform: translateY(-50%);
+    opacity: 0; }
+  to {
+    transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes backdropFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.Backdrop-Animation {
+  animation-name: backdropFade;
+  animation-duration: 0.3s; }
+
+.Modal-Animation {
+  animation-name: modalFade;
+  animation-duration: 0.3s; }
